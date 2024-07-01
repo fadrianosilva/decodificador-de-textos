@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5fc;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.entrada {
+    height: 500px;
+}
+
+.entrada-input {
+    border: none;
+    outline: none;
+    background-color: #f3f5fc;
+    font-size: 2rem;
+    color: #0a3871;
+    height: 400px ;
+    width: 500px;
+}
+
+.saida {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+
+.saida-subtitulo {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #343a40;
+    padding-top: 16px;
+}
+
+.saida-texto {
+    font-size: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #495057;
+    padding-top: 16px;
+}
+
+.saida-texto-2 {
+    font-size: 1.5rem;
+}
+
+.btnDefault {
+    border: solid 2px #0a3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    background-color: #0a3871;
+    color: #ffffff;
+}
+
+.btn-decodifica {
+    background-color: #f3f5fc;
+    color: #0a3871;
+}
+
+.btn-copiar {
+    background-color: #ffffff;
+    color: #0a3871;
+}

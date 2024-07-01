@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Decodificador de Textos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Frame 6.png">
+    </header>
+
+    <main class="conteudo">    
+        <div class="entrada">
+                <input type="text" name="txtTextoEntrada" id="textoEntrada" class="entrada-input" placeholder="Digite seu texto">
+                <p class=""><img src="./assets/bi_exclamation-circle-fill.png" alt="Imagem ícone de informaçoes"> Apenas letras minúsculas e sem acento.</p> 
+                <button class="btnDefault entrada-btn" onclick="codificarTexto()">Criptografar</button>
+                <button class="btnDefault entrada-btn btn-decodifica" onclick="decodificarTexto()">Descriptografar</button>           
+        </div>
+
+        <div class="saida">
+            <p class="saida-texto saida-texto-2" id="textoSaida"></p>
+            <button class="btnDefault btn-copiar" id="btnCopiaTexto" onclick="copiarTexto()" style="display: none;">Copiar</button>
+
+            <section id="msgNotFound">
+                <img class="saida-imagem" id="" src="./assets/High quality products 1 1.svg">
+                <p class="saida-subtitulo">Nenhuma mensagem <br>encontrada</p>
+                <p class="saida-texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Flavio Adriano Silva - 06/2024</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
